@@ -35,10 +35,10 @@ const Header = () => {
                             <Nav.Link as={Link} to="about">Blogs</Nav.Link>
                             {
                                 user ?
-                                    <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>sign out</button>
+                                    <button className='btn btn-link text-white text-decoration-none bg-danger' onClick={handleSignOut}>sign out</button>
                                     :
 
-                                    <Nav.Link as={Link} to="login">Login</Nav.Link>
+                                    <Nav.Link className="bg-success text-white rounded-3 px-3 border-primary " as={Link} to="login">Login</Nav.Link>
                             }
                         </Nav>
                     </Navbar.Collapse>
