@@ -47,7 +47,7 @@ const Register = () => {
     }
 
     return (
-        <div className='register-form box-2'>
+        <div className='register-form box-2 Larger shadow rounded-2'>
             <h2 style={{ textAlign: 'center' }}> Register Here</h2>
             <form onSubmit={handleRegister}>
                 <input type="text" name="name" id="" placeholder='Your Name...' />

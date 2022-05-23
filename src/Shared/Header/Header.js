@@ -21,18 +21,18 @@ const Header = () => {
             <Navbar collapseOnSelect expand="lg" sticky='top' bg="dark" variant="dark" >
                 <Container className="container header p-1">
                     <Navbar.Brand as={Link} to="/">
-                        <img className='rounded-3' height={18} width={50} src={logo} alt="" />
+                        <img className='rounded-3' height={18} width={40} src={logo} alt="" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="home#services">Services</Nav.Link>
-                            <Nav.Link href="/blogs">Blogs</Nav.Link>
+                            <Nav.Link href="About">About</Nav.Link>
 
                         </Nav>
                         <Nav>
-                            <Nav.Link as={Link} to="about">Blogs</Nav.Link>
+                            <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
                             {
                                 user ?
                                     <button className='btn btn-link text-white text-decoration-none bg-danger' onClick={handleSignOut}>sign out</button>
