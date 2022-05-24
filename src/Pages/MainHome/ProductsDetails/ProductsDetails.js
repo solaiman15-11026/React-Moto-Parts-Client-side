@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, CardGroup } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 const ProductsDetails = (props) => {
     const { img, name, description, minimum, quantity, price } = props.p;
@@ -19,7 +20,7 @@ const ProductsDetails = (props) => {
 
                             {minimum} &&  Quantity: {quantity}</small>
                         <h6>Price: ${price}</h6>
-                        <button className='bg-info p-2 w-100 text-light rounded'>Order</button>
+                        <Link to='order'  > <button className='bg-info p-2 w-100 text-light rounded'>Order</button></Link>
                     </Card.Body>
 
 

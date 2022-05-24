@@ -29,7 +29,7 @@ const Products = () => {
                 <span className='border border-info px-2 mx-2'>T</span>
                 <span className='border border-info px-2 mx-2'>S</span>
             </h1>
-            <hr style={{ width: '35%', margin: '0  auto' }} className='mb-4 ' />
+            <hr style={{ width: '47%', margin: '0  auto' }} className='mb-4 ' />
             <div className='grid'>
                 {
                     products.map(p => <ProductsDetails
