@@ -5,7 +5,7 @@ const Gallary = () => {
         <div className='FullSize'>
             <div className='small'>
                 <h4>FAST MOVING <br />
-                    <h1><b className='toy mb-4'> SPARE PARTS</b></h1></h4>
+                    <h1><b className='toy mb-3'> SPARE PARTS</b></h1></h4>
                 <div className='img-container'>
                     <div className='conty'>
                         <img className='img-co' src="https://i.ibb.co/Cst51V3/22K130LS.jpg" alt="" srcset="" />
