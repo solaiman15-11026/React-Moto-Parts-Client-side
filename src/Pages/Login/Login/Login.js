@@ -36,10 +36,7 @@ const Login = () => {
         navigate(from, { replace: true });
     }
 
-    if (error) {
-        errorElement = <p className='text-danger'>Error: {error?.message}</p>
 
-    }
 
     const handleSubmit = event => {
         event.preventDefault();
@@ -66,7 +63,7 @@ const Login = () => {
     }
 
     return (
-        <div className='container w-50 mx-auto box Larger shadow rounded-2 '>
+        <div className=' mx-auto box response shadow rounded-2 '>
             <h2 className='text-center mt-2'>LogIn</h2>
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -84,7 +81,7 @@ const Login = () => {
                 </Button>
             </Form>
             {errorElement}
-            <p>Don't have an account? <Link to='/register' className='text-primary pe-auto text-decoration-none' onClick={navigateRegister}>Create an account</Link></p>
+            <p>Don't have an account? <Link to='/register' className='text-primary pe-auto text-decoration-none response' onClick={navigateRegister}>Create an account</Link></p>
             <p>Forget Password?<button className='btn btn-link text-primary pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button></p>
             <SocialLogin></SocialLogin>
             <ToastContainer />
