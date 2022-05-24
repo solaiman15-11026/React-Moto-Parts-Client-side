@@ -21,6 +21,7 @@
 
 .conty {
     position: relative;
+
 }
 
 .name {
@@ -46,6 +47,11 @@
     }
 
     .name {
+        width: 98%;
+
+    }
+
+    .conty {
         width: 100%;
     }
 }

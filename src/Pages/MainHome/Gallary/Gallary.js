@@ -2,7 +2,7 @@ import React from 'react';
 import './Gallary.css'
 const Gallary = () => {
     return (
-        <div className='FullSize'>
+        <div className='FullSize mt-5'>
             <div className='small'>
                 <h4>FAST MOVING <br />
                     <h1><b className='toy mb-3'> SPARE PARTS</b></h1></h4>

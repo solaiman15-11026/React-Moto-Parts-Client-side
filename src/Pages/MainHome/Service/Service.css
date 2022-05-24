@@ -1,0 +1,53 @@
+.headB {
+
+    padding: 5px;
+    margin-top: 50px;
+    background-color: rgb(26, 186, 207);
+    color: white;
+    border-radius: 10px;
+}
+
+.Font {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(26, 186, 207);
+}
+
+.Review-Clint {
+    color: rgb(136, 123, 123)
+}
+
+.dio {
+    color: rgb(71, 70, 77);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 31px;
+}
+
+.mapp {
+    height: 413px;
+}
+
+@media screen and (max-width: 600px) {
+    .mapp {
+        height: 100%;
+
+
+    }
+
+    .hero {
+        width: 99%;
+        margin: 10px 15px;
+        padding: 0;
+    }
+
+    .headB {
+        font-size: 22px;
+    }
+
+    .Mediaa {
+        margin: 10px 10px;
+        width: 100%;
+    }
+}

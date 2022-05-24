@@ -1,0 +1,83 @@
+[
+    {
+        "_id": 1,
+        "name": "S&S Hooligan Big Bore",
+        "img": "https://i.ibb.co/ZNt9xSP/drag-specialties-led-running-light-brake-light-assembly-for-harley-sportster20142015-750x750.jpg",
+        "description": "Whether you’re racing flat-track or just want more power, the S&S Hooligan kits for Harley-Davidson Sportster models will give you an edge on the competition. Bolt on big bore kits mean easy installation with no machining and no rebalancing. S&S bolt-in cams and premium tappets make the most of the added displacement. Available in silver powder coat or black wrinkle that matches the stock finish.",
+        "minimum": 100,
+        "quantity": 1000,
+        "price": 98
+    },
+    {
+        "_id": 2,
+        "name": "Drag Specialties LED Running",
+        "img": "https://i.ibb.co/k3YvQL0/ss-hooligan-big-bore-cam-kit-for-harley-sportster-black-750x750.jpg",
+        "description": "The Custom Dynamics Triple Play module lets you install a modulating brake light the easy way - because there is no wiring. Get all of the benefits without any of the complications. The Triple Play is plug and play!",
+        "minimum": 50,
+        "quantity": 3000,
+        "price": 67
+    },
+    {
+        "_id": 3,
+        "name": "Snake Skin Tank Pads",
+        "img": "https://i.ibb.co/NZVYS18/tech-spec-snake-skin-tank-pads-750x750.jpg",
+        "description": "The Snake Skin Tank Pads are the flagship product of the TechSpec line. Each Snake Skin Tank Pad features the most aggressive pattern available, which provides unparalleled grip and increased control. You'll feel the difference right away, as the pads allow you to decrease the pressure on your wrists, elbows and shoulders, improving the relationship between you and your machine! Perfect for any rider hitting the track!",
+        "minimum": 50,
+        "quantity": 1500,
+        "price": 12
+    },
+    {
+        "_id": 4,
+        "name": "Yuasa AGM Battery",
+        "img": "https://i.ibb.co/V9YTwcV/yuasa-agm-battery-750x750.jpg",
+        "description": "This is the new generation of maintenance-free batteries from the largest motorcycle battery manufacturer in the world! Over 50 years of engineering expertise ensures high-quality construction for long and trouble-free service. Their use of Absorbed Glass Mat (AGM) Separators is an advanced battery technology that eliminates the need to ever add water. Their advanced lead-calcium alloy holds its specific gravity more than 3 times longer than conventional lead antimony batteries.",
+        "minimum": 500,
+        "quantity": 3000,
+        "price": 25
+    },
+    {
+        "_id": 5,
+        "name": "Akrapovic GP Slip-On Exhaust",
+        "img": "https://i.ibb.co/wKpdCpH/akrapovic-gp-slip-on-exhaust-750x750.jpg",
+        "description": "The Akrapovic GP-styled Slip-On is a high-performance exhaust that takes design cues from the exhaust found on the factory Yamaha M1 MotoGP bike. Made from titanium, a race-proven material, this exhaust system results in a boost in performance and noticeable weight reduction.",
+        "minimum": 1000,
+        "quantity": 4000,
+        "price": 120
+    },
+    {
+        "_id": 6,
+        "name": "HJC CS-R3 Dosta Helmet",
+        "img": "https://i.ibb.co/9sYrvGF/hjccsr3-dosta-helmet-750x750.jpg",
+        "description": "The HJC CS-R3 Helmet features adjustable ventilation and can it be upgraded with a variety of different face shield options down the road. Shield swaps are a breeze thanks to the tool-less design found on the CS-R3.",
+        "minimum": 30,
+        "quantity": 1200,
+        "price": 80
+    },
+    {
+        "_id": 7,
+        "name": "Alpinestars Missile Race Suit",
+        "img": "https://i.ibb.co/prfvwnf/alpinestars-missile-race-suit-for-tech-air-race-black-red-750x750.jpg",
+        "description": "Somehow, “Missile” doesn’t quite do it justice.The way Tech Air technology has exploded onto the motorcycle protection market, the Alpinestars “Surface-to-Air Laser-Guided Warhead” Race Suit would have been much more appropriate.",
+        "minimum": 400,
+        "quantity": 4000,
+        "price": 545
+    },
+    {
+        "_id": 8,
+        "name": "Trackside 8 Piece",
+        "img": "https://i.ibb.co/jhZX3k1/trackside8-piece-tie-down-set-black-750x750.jpg",
+        "description": "The Track Side 8 Piece Tie-Down Set includes everything you need to safely transport your precious motorcycle. ",
+        "minimum": 1000,
+        "quantity": 3000,
+        "price": 64
+    },
+    {
+        "_id": 9,
+        "name": "Speedmetal Billet Bar End Mirrors",
+        "img": "https://i.ibb.co/H7zRH5y/speedmetal-billet-bar-end-mirrors-black-750x750.jpg",
+        "description": "These mirrors are ideal for anyone looking to replace their existing OEM mirrors for a more low profile design. Two sizes of expansion collars for inside the bar mounting or just clamp to the outside of your bar. The specially designed ball joint stem provides a wide range of viewing angles.",
+        "minimum": 30,
+        "quantity": 1000,
+        "price": 49
+    }
+]

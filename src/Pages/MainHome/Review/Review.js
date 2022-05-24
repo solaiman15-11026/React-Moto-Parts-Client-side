@@ -6,15 +6,15 @@ import './Review.css'
 const Review = () => {
     return (
         < div className='my-5 container pb-4 bg-color' >
-            <h1 className='mt-5 text-danger pt-5 mb-2 text-center text-uppercase '>
+            <h1 className='mt-5 text-primary pt-5 mb-2 text-center text-uppercase '>
 
-                <span className='border border-danger px-2 mx-2'>R</span>
-                <span className='border border-danger px-2 mx-2'>E</span>
-                <span className='border border-danger px-2 mx-2'>V</span>
-                <span className='border border-danger px-2 mx-2'>I</span>
-                <span className='border border-danger px-2 mx-2'>E</span>
-                <span className='border border-danger px-2 mx-2'>W</span>
-                <span className='border border-danger px-2 mx-2'>S</span>
+                <span className='border border-info px-2 mx-2'>R</span>
+                <span className='border border-info px-2 mx-2'>E</span>
+                <span className='border border-info px-2 mx-2'>V</span>
+                <span className='border border-info px-2 mx-2'>I</span>
+                <span className='border border-info px-2 mx-2'>E</span>
+                <span className='border border-info px-2 mx-2'>W</span>
+                <span className='border border-info px-2 mx-2'>S</span>
             </h1>
             <hr style={{ width: '35%', margin: '0  auto' }} className='mb-4 ' />
             <div className="card-group text-center">
