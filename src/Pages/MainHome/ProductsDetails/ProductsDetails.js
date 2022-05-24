@@ -5,28 +5,27 @@ const ProductsDetails = (props) => {
     const { img, name, description, minimum, quantity, price } = props.p;
     console.log(props.p)
     return (
-        <div>
+        <div className='m-3'>
             <CardGroup>
-                <Card>
+                <Card className='gap-4'>
                     <Card.Img variant="top" src={img} />
                     <Card.Body>
-                        <Card.Title>{name}</Card.Title>
+                        <Card.Title className='text-primary'>{name}</Card.Title>
                         <Card.Text>
                             {description}
                         </Card.Text>
-                        <small className="text-muted">{minimum}</small>
-                        <small className="text-muted">{quantity}</small>
 
-                        <Card.Text>
-                            ${price}
-                        </Card.Text>
+                        <small className="text-muted mb-2"> Minimum:
+
+                            {minimum} &&  Quantity: {quantity}</small>
+                        <h6>Price: ${price}</h6>
+                        <button className='bg-info p-2 w-100 text-light rounded'>Order</button>
                     </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
+
+
                 </Card>
             </CardGroup>
-        </div>
+        </div >
     );
 };
 
