@@ -1,0 +1,150 @@
+.BG-image {
+    position: relative;
+    margin: 80px 0px;
+}
+
+.headd {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inpt {
+    position: absolute;
+    top: 20px;
+    left: 400px;
+}
+
+.field {
+    margin: 0 30px;
+    background: none;
+    border: 2px solid rgb(198, 203, 207);
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    width: 230px;
+}
+
+.input-res {
+    position: absolute;
+    top: 120px;
+    left: 130px;
+
+}
+
+.rex {
+    margin-left: 25px;
+}
+
+.cla {
+    margin: 0 30px;
+    background: none;
+    border: 2px solid rgb(198, 203, 207);
+    padding: 10px;
+    color: rgb(156, 202, 243);
+    border-radius: 15px;
+    width: 230px;
+}
+
+.fextAr {
+    background: none;
+    border: 2px solid rgb(198, 203, 207);
+    border-radius: 15px;
+    color: white;
+}
+
+.bt {
+    text-align: center;
+}
+
+.togol {
+    background-color: rgb(9, 143, 98);
+    padding: 12px 40px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    transition: all 500ms ease-in-out;
+}
+
+.togol:hover {
+    transform: scale(1.1);
+
+}
+
+
+/* -------------media qur---------y */
+
+
+@media screen and (max-width: 600px) {
+
+    .inpt {
+        position: absolute;
+        top: 2px;
+
+    }
+
+    .BG-image {
+        position: relative;
+
+    }
+
+    .from {
+
+        margin-top: -50px;
+
+    }
+
+    .input-res {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        margin: 0;
+        left: 0;
+    }
+
+    .fextAr {
+        width: 100%;
+        margin: 0;
+        left: 0;
+    }
+
+    .imagee {
+        height: 480px;
+    }
+
+    .headd {
+        text-align: left;
+        color: rgb(251, 255, 255);
+        font-size: 25px;
+        margin-top: 10px;
+        margin-left: -330px;
+
+        padding: 0;
+    }
+
+    .field {
+        width: 75%;
+        margin-bottom: 10px;
+    }
+
+    .cla {
+        width: 75%;
+
+    }
+
+    .rex {
+        width: 75%;
+
+    }
+
+    .fextAr {
+        height: 80px;
+        margin-top: -25px;
+    }
+
+    .togol {
+        margin-top: -25px;
+    }
+
+}
