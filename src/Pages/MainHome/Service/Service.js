@@ -21,20 +21,20 @@ const Service = () => {
                             <p className='Review-Clint'>Business emails organized</p>
                         </Col>
 
-                        <Col className='Mediaa border-2' sm={12} lg={5}>
+                        <Col className='Mediaa border-2 mr' sm={12} lg={5}>
                             <span className='Font d-flex justify-content-center m-3'><FontAwesomeIcon icon={faList} /></span>
                             <h3 className='dio'>12K+ </h3>
                             <p className='Review-Clint'>Reviews we have . 90% positive review we have</p>
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className='mb-4 Mediaa'>
                         <Col className='Mediaa border-2 mx-4 ' sm={12} lg={5}>
                             <span className='Font d-flex justify-content-center m-3'><FontAwesomeIcon icon={faPeopleGroup} /></span>
                             <h3 className='dio'>300+ </h3>
                             <p className='Review-Clint'>Clint we have. They take our good services</p>
                         </Col>
 
-                        <Col className='Mediaa border-2' sm={12} lg={5}>
+                        <Col className='Mediaa border-2 mrr' sm={12} lg={5}>
                             <span className='Font d-flex justify-content-center m-3'><FontAwesomeIcon icon={faTools} /></span>
                             <h3 className='dio'>120+ </h3>
                             <p className='Review-Clint'>Tools  using Amitree technology</p>

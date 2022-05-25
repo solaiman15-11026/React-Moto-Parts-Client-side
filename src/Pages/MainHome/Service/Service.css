@@ -34,11 +34,12 @@
         height: 100%;
 
 
+
     }
 
     .hero {
         width: 99%;
-        margin: 10px 15px;
+        margin: 0;
         padding: 0;
     }
 
@@ -50,4 +51,15 @@
         margin: 10px 10px;
         width: 100%;
     }
+
+    .mr {
+        margin-left: 24px;
+
+    }
+
+    .mrr {
+        margin-left: 24px;
+    }
+
+
 }

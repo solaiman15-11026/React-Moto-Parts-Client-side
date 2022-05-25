@@ -32,7 +32,7 @@ const Letus = () => {
                     <textarea className='fextAr' name="" id="" cols="147" rows="6" placeholder='REMARKS'></textarea>
                 </div>
                 <div className='bt mt-4'>
-                    <button className='togol bg-warning  '>
+                    <button className='togol bg-warning   '>
                         SUBMIT
                     </button>
                 </div>

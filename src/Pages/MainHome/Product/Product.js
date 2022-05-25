@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import ProductsDetails from '../ProductsDetails/ProductsDetails';
-import './Products.css'
+import Pdetails from '../Pdetails/Pdetails';
+import './Product.css'
 
-const Products = () => {
+const Product = () => {
     const [products, setProducts] = useState([])
 
     useEffect(() => {
@@ -12,16 +12,11 @@ const Products = () => {
             .then(data => setProducts(data))
     }, [])
 
-    const navigate = useNavigate()
 
-    const handleSeeProduct = () => {
-        const path = `/product`
-        navigate(path)
-    }
 
     return (
 
-        <div id='products' className='view' >
+        <div className='view' >
             <h1 className='mt-4 text-dark pt-5 mb-3 text-center text-uppercase heabt'>
 
                 <span className='border border-warning px-2 mx-2 hea'>O</span>
@@ -40,22 +35,19 @@ const Products = () => {
             <hr style={{ width: '47%', margin: '0  auto' }} className='mb-4 ' />
             <div className='grid'>
                 {
-                    products.slice(0, 3).map(p => <ProductsDetails
+                    products.map(p => <Pdetails
                         key={p._id}
                         p={p}
 
 
-                    ></ProductsDetails>)
+                    ></Pdetails>)
 
                 }
 
-            </div>
-            <div className='text-center'>
-                <button onClick={handleSeeProduct} className='btn btn-outline-info  fs-5 mb-4 mt-4 text-c uppercase '>See All Products</button>
             </div>
 
         </div>
     );
 };
 
-export default Products;
+export default Product;
