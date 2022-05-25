@@ -63,7 +63,7 @@ const Login = () => {
     }
 
     return (
-        <div className=' mx-auto box response shadow rounded-2 '>
+        <div className=' mx-auto box response shadow rounded-2 mb-4 '>
             <h2 className='text-center mt-2'>LogIn</h2>
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
