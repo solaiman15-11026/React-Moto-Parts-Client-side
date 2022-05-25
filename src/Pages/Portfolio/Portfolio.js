@@ -3,6 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import profile from '../../Image/formal pic.png'
+import laptop from '../../Image/server pic/laptop.png'
+import gym from '../../Image/server pic/gym.png'
+import apple from '../../Image/server pic/apple .png'
+
 
 import './Portfolio.css'
 
@@ -12,7 +16,7 @@ const Portfolio = () => {
             <Container className=''>
                 <div className='port '>
                     <div className='mt-4 '>
-                        <img className='rounded' src={profile} alt="" srcset="" className='' />
+                        <img className='rounded' src={profile} alt="" srcset="" />
                     </div>
                     <div className='' >
                         <div className='rty'>
@@ -29,7 +33,7 @@ const Portfolio = () => {
 
 
                 <div className='skill shadow rounded-3 '>
-                    <h1 className='text-center   mb-12  uppercase font-skill'>
+                    <h1 className='text-center   mb-11  uppercase font-skill'>
 
                         <span className='border border-warning px-2 mx-2'>m</span>
                         <span className='border border-warning px-2 mx-2'>y</span>
@@ -40,6 +44,7 @@ const Portfolio = () => {
                         <span className='border border-info px-2 mx-2'>l</span>
                         <span className='border border-info px-2 mx-2'>S</span>
                     </h1>
+
 
                     <div className=''>
                         <div class="w-full bg-gray-200 mb-3 h-1">
@@ -78,7 +83,7 @@ const Portfolio = () => {
                     </div>
                 </div> <br />   <br /> <br /> <br />
 
-                <div className='w-100 mx-auto mb-24 '>
+                <div className='w-100 mx-auto mb-23 '>
                     <h1 className='text-center  mb-3 text-4xl uppercase'> <span className='text-pink-700'>EDUCATION Qualification</span></h1>
                     <hr style={{ width: '43%', margin: '0  auto' }} className='mb-4 ' />
                     <div >
@@ -97,10 +102,50 @@ const Portfolio = () => {
 
 
 
+                <div className='text-center  '>
+                    <h1 className='text-center font-bold mb-2 text-4xl uppercase text-light'>My Best <span className='text-red-600'>Projects</span></h1>
+                    <hr className='mb-12 text-light' style={{ width: '33%', margin: '0  auto' }} /> <br /> <br />
 
+                    <div className=' Port-size'>
+                        <div className=" border-top border-2 ">
 
+                            <div  >
+                                <img className='server-img' src={gym} alt="Shoes" />
 
+                                <a href="https://assignment-zio.web.app/" target='_blank'>
 
+                                    <button class="btn btn-dark w-100 rounded-none">Live Site</button></a>
+                            </div>
+
+                        </div>
+
+                        <div className="border border-2">
+
+                            <div  >
+                                <img className='server-img' src={apple} alt="Shoes" />
+
+                                <a href="https://product-house-solo.netlify.app/" target='_blank'>
+
+                                    <button className="btn btn-dark w-100 rounded-none">Live Site</button></a>
+                            </div>
+
+                        </div>
+
+                        <div className="border border-2">
+
+                            <div  >
+                                <img className='server-img' src={laptop} alt="Shoes" />
+
+                                <a href="https://warehouse-23935.web.app/" target='_blank'>
+
+                                    <button className="btn btn-dark w-100 rounded-none">Live Site</button></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <br /> <br /> <br /> <br />
             </Container >
         </div >
 

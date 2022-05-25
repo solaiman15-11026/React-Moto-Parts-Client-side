@@ -1,7 +1,7 @@
 import { faBusinessTime, faList, faPeopleGroup, faTools } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import map from '../../../Image/map.jpg'
 import './Service.css'
 
@@ -9,7 +9,8 @@ const Service = () => {
     return (
         <div>
 
-            <h1 className='headB mx-4 d-flex justify-content-center'>OUR WORLDWIDE BUSINESS</h1>
+            <h1 className='headB mb-2 '>OUR WORLDWIDE BUSINESS</h1>
+            <hr style={{ width: '40%', margin: '0  auto' }} className='mb-3 ' />
 
             <Row className='mx-4  d-flex justify-content-center'>
 

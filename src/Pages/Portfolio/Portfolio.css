@@ -21,9 +21,21 @@
     color: rgb(204, 199, 190);
 }
 
+.Port-size {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 27px;
+}
 
+.server-img {
+    height: 180px;
+    transition: all 500ms ease-in-out;
+}
 
-
+.server-img:hover {
+    transform: scale(0.9);
+    overflow: hidden;
+}
 
 
 
@@ -43,6 +55,12 @@
 
     .font-skill {
         font-size: 15px;
+    }
+
+    .Port-size {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
     }
 
 
