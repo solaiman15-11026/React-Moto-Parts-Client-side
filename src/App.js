@@ -7,10 +7,9 @@ import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 import Home from './Pages/MainHome/Home/Home';
-import Order from './Pages/MainHome/Order/Order';
-import Product from './Pages/MainHome/Product/Product';
 import Products from './Pages/MainHome/Products/Products';
 import NotFound from './Pages/NotFound/NotFound';
+import Order from './Pages/Order/Order';
 import Portfolio from './Pages/Portfolio/Portfolio';
 import Footer from './Shared/Footer/Footer';
 import Header from './Shared/Header/Header';
@@ -29,15 +28,14 @@ function App() {
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/products' element={<Products></Products>}></Route>
-        <Route path='/product' element={<Product></Product>}></Route>
-        <Route path='/dashboard' element={
-          <RequireAuth>
-            <Dashboard></Dashboard>
-          </RequireAuth>
-        }></Route>
         <Route path='/order' element={
           <RequireAuth>
             <Order></Order>
+          </RequireAuth>
+        }></Route>
+        <Route path='/dashboard' element={
+          <RequireAuth>
+            <Dashboard></Dashboard>
           </RequireAuth>
         }></Route>
         <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>

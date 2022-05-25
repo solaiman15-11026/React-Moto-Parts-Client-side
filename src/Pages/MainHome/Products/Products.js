@@ -15,7 +15,7 @@ const Products = () => {
     const navigate = useNavigate()
 
     const handleSeeProduct = () => {
-        const path = `/product`
+        const path = `/part`
         navigate(path)
     }
 
@@ -40,7 +40,7 @@ const Products = () => {
             <hr style={{ width: '47%', margin: '0  auto' }} className='mb-4 ' />
             <div className='grid'>
                 {
-                    products.slice(0, 3).map(p => <ProductsDetails
+                    products.map(p => <ProductsDetails
                         key={p._id}
                         p={p}
 
@@ -49,9 +49,6 @@ const Products = () => {
 
                 }
 
-            </div>
-            <div className='text-center'>
-                <button onClick={handleSeeProduct} className='btn btn-outline-info  fs-5 mb-4 mt-4 text-c uppercase '>See All Products</button>
             </div>
 
         </div>
