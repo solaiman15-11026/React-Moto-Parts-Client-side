@@ -1,6 +1,7 @@
 .port {
     display: grid;
     grid-template-columns: 2fr 4fr;
+
 }
 
 .rty {
@@ -12,7 +13,13 @@
     padding: 30px;
 }
 
+.cover-body {
+    background-color: black;
+}
 
+.review {
+    color: rgb(204, 199, 190);
+}
 
 
 
