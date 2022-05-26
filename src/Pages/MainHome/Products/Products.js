@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import ProductsDetails from '../ProductsDetails/ProductsDetails';
+import Part from '../Part/Part';
 import './Products.css'
 
 const Products = () => {
@@ -12,12 +11,6 @@ const Products = () => {
             .then(data => setProducts(data))
     }, [])
 
-    const navigate = useNavigate()
-
-    const handleSeeProduct = () => {
-        const path = `/part`
-        navigate(path)
-    }
 
     return (
 
@@ -40,12 +33,10 @@ const Products = () => {
             <hr style={{ width: '47%', margin: '0  auto' }} className='mb-4 ' />
             <div className='grid'>
                 {
-                    products.map(p => <ProductsDetails
-                        key={p._id}
-                        p={p}
+                    products.map(part => <Part
+                        part={part}
 
-
-                    ></ProductsDetails>)
+                    ></Part>)
 
                 }
 

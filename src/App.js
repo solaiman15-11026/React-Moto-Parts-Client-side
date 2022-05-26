@@ -7,9 +7,10 @@ import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 import Home from './Pages/MainHome/Home/Home';
+import Part from './Pages/MainHome/Part/Part';
 import Products from './Pages/MainHome/Products/Products';
+import ProductsDetails from './Pages/MainHome/ProductsDetails/ProductsDetails';
 import NotFound from './Pages/NotFound/NotFound';
-import Order from './Pages/Order/Order';
 import Portfolio from './Pages/Portfolio/Portfolio';
 import Footer from './Shared/Footer/Footer';
 import Header from './Shared/Header/Header';
@@ -28,10 +29,13 @@ function App() {
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/products' element={<Products></Products>}></Route>
-        <Route path='/order' element={
+        <Route path='/part' element={<Part></Part>}></Route>
+
+        <Route path='/part/:id' element={
           <RequireAuth>
-            <Order></Order>
+            <ProductsDetails></ProductsDetails>
           </RequireAuth>
+
         }></Route>
         <Route path='/dashboard' element={
           <RequireAuth>
