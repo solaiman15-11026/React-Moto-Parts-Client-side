@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Live website: ( https://sellhouse-f039f.web.app/)
+
+## About my website
+* This website is created by Crate-react-app and mongodb also use heroku.
+* For functional purpose I use React Router and also add some components in my app.
+* Me use firebase authentication. Which authentication are Email and Password , Google  Authentication also.
+* Adding a private route which page user can't entire without login. After login user can stay in this page.
+* For website hosting we use firebase.
+* Alse we create dashboard there we can see user order products . User can post there feedback there.
+* This is a full stack website.
 ## Available Scripts
 
 In the project directory, you can run:
