@@ -15,7 +15,10 @@ import Portfolio from './Pages/Portfolio/Portfolio';
 import Footer from './Shared/Footer/Footer';
 import Header from './Shared/Header/Header';
 
-
+import Orders from './Pages/Dashboard/Orders'
+import MyProfile from './Pages/Dashboard/MyProfile'
+import Users from './Pages/Dashboard/Users'
+import AddReview from './Pages/Dashboard/AddReview'
 
 
 function App() {
@@ -31,17 +34,18 @@ function App() {
         <Route path='/products' element={<Products></Products>}></Route>
         <Route path='/part' element={<Part></Part>}></Route>
 
-        <Route path='/part/:id' element={
-          <RequireAuth>
-            <ProductsDetails></ProductsDetails>
-          </RequireAuth>
+        <Route path='/part/:id' element={<RequireAuth><ProductsDetails></ProductsDetails></RequireAuth>}></Route>
 
-        }></Route>
-        <Route path='/dashboard' element={
-          <RequireAuth>
-            <Dashboard></Dashboard>
-          </RequireAuth>
-        }></Route>
+
+        <Route path='/dashboard' element={<RequireAuth><Dashboard></Dashboard></RequireAuth>}>
+          <Route index element={<Orders></Orders>}></Route>
+          <Route path='addreview' element={<AddReview></AddReview>}></Route>
+          <Route path='myprofile' element={<MyProfile></MyProfile>}></Route>
+          <Route path='users' element={<RequireAuth><Users></Users></RequireAuth>}></Route>
+
+        </Route>
+
+
         <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes >
