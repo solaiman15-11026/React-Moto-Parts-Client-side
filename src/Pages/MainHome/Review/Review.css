@@ -6,3 +6,15 @@
 .tt {
     color: rgba(68, 68, 233, 0.904);
 }
+
+.container-reviw {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 600px) {
+    .container-reviw {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

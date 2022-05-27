@@ -9,7 +9,7 @@ const MyProfile = () => {
     const [googleUser] = useAuthState(auth);
     const [NormalUser, setNormalUser] = useState({});
     useEffect(() => {
-        fetch(`https://still-thicket-10421.herokuapp.com/userinfo/${googleUser.email}`)
+        fetch(`http://localhost:5000/userinfo/${googleUser.email}`)
             .then(res => res.json())
             .then(data => setNormalUser(data))
     }, [NormalUser, googleUser])
@@ -23,7 +23,7 @@ const MyProfile = () => {
             contact: e.target.contact.value,
             linkedln: e.target.linkedln.value
         }
-        fetch(`https://still-thicket-10421.herokuapp.com/user/${googleUser.email}`, {
+        fetch(`http://localhost:5000/user/${googleUser.email}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
