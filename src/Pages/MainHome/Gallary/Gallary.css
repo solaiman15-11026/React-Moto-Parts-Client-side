@@ -1,5 +1,11 @@
 .toy {
     color: crimson;
+    font-size: 40px;
+}
+
+.to {
+    color: rgb(41, 39, 39);
+    font-size: 28px;
 }
 
 .FullSize {

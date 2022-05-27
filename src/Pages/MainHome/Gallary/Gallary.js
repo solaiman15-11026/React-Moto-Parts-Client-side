@@ -4,8 +4,8 @@ const Gallary = () => {
     return (
         <div className='FullSize mt-4'>
             <div className='small'>
-                <h4>FAST MOVING <br />
-                    <h1><b className='toy mb-3'> SPARE PARTS</b></h1></h4>
+                <h1 className='to mb-2'>FAST MOVING <br />
+                    <h1><b className='toy mb-3'> SPARE PARTS</b></h1></h1>
                 <div className='img-container'>
                     <div className='conty'>
                         <img className='img-co' src="https://i.ibb.co/Cst51V3/22K130LS.jpg" alt="" srcset="" />

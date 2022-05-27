@@ -26,7 +26,7 @@ const Part = ({ part }) => {
                         <small className="text-muted mb-2"> Minimum:
 
                             {minimum} &&  Quantity: {quantity}</small>
-                        <h6>Price: ${price}</h6>
+                        <h6 ><b className='text-danger'>Price:</b> <span className='text-dark'>${price} </span>  </h6>
 
                         <button onClick={() => handleParts(_id)} className='bg-info p-2 w-100 text-light rounded'>Order</button>
                     </Card.Body>
