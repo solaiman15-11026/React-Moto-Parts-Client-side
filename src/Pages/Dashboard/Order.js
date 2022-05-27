@@ -5,7 +5,7 @@ import { toast } from 'react-toastify';
 const Order = ({ a, index }) => {
 
     // const handledelete = id => {
-    //     fetch(`http://localhost:5000/placeorder/${_id}`, {
+    //     fetch(`https://still-thicket-10421.herokuapp.com/placeorder/${_id}`, {
     //         method: "DELETE",
     //         headers: {
     //             authorization: `Bearer ${localStorage.getItem("accessToken")}`,
@@ -28,7 +28,7 @@ const Order = ({ a, index }) => {
             <td>{a.placeOrderPrice}</td>
             <td>{a.placeOrderQuantity}</td>
             <td>
-                {a.orderPrice && !a.paid && (
+                {a.placeOrderPrice && !a.paid && (
                     <Link to={`/dashboard/payment/${a._id}`}>
                         <button className="btn btn-xs btn-secondary lg:px-5">
                             Pay

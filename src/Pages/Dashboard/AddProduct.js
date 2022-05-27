@@ -13,7 +13,7 @@ const AddProduct = () => {
             quantity: e.target.quantity.value
         }
         console.log(product);
-        fetch('http://localhost:5000/part', {
+        fetch('https://still-thicket-10421.herokuapp.com/part', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(product)
@@ -30,7 +30,7 @@ const AddProduct = () => {
     return (
         <div className='mx-5'>
             <div class="container mx-auto">
-                <div class="max-w-xl p-5 mx-auto my-5 bg-white rounded shadow-xl rounded">
+                <div class="max-w-xl p-5 mx-auto my-5 bg-white rounded-md shadow-xl rounded-lg">
                     <div class="text-center">
                         <h1 class="my-3 text-3xl font-semibold text-gray-700">Add a Product</h1>
 

@@ -20,28 +20,51 @@ const Footer = () => {
                 </div>
                 <div className='text-white'>
                     <h4 className='rt mb-2'>SERVICES</h4>
-                    <span className=''> <FontAwesomeIcon className='icon' icon={faSquarePlus} /> </span>
-                    <span>  <Link to='/' className='textt mt-3'>Branding</Link> <br /></span>
-                    <span className=''> <FontAwesomeIcon className='icon' icon={faSquarePlus} /> </span>
-                    <span>  <Link to='/' className='textt mt-2'>Design</Link> <br /></span>
-                    <span className=''> <FontAwesomeIcon className='icon' icon={faSquarePlus} /> </span>
-                    <span>    <Link to='/' className='textt mt-2'>Fast moving spare parts </Link> <br /></span>
-                    <span className=''> <FontAwesomeIcon className='icon' icon={faSquarePlus} /> </span>
-                    <span>  <Link to='/' className='textt mt-2'>Marketing</Link> <br /></span>
-                    <span className=''> <FontAwesomeIcon className='icon' icon={faSquarePlus} /> </span>
-                    <span>      <Link to='/' className='textt mt-2'>Advertisement</Link> <br /></span>
+                    <p> <span className=''> <FontAwesomeIcon className='icon' icon={faSquarePlus} /> </span>
+                        <span>  <Link to='/' className='textt mt-3'>Branding</Link> <br /></span></p>
+
+                    <p>
+                        <span className=''> <FontAwesomeIcon className='icon' icon={faSquarePlus} /> </span>
+                        <span>  <Link to='/' className='textt mt-2'>Design</Link> <br /></span>
+                    </p>
+
+                    <p>
+                        <span className=''> <FontAwesomeIcon className='icon' icon={faSquarePlus} /> </span>
+                        <span>    <Link to='/' className='textt mt-2'>Fast moving spare parts </Link> <br /></span>
+                    </p>
+                    <p>
+                        <span className=''> <FontAwesomeIcon className='icon' icon={faSquarePlus} /> </span>
+                        <span>  <Link to='/' className='textt mt-2'>Marketing</Link> <br /></span>
+                    </p>
+                    <p>
+                        <span className=''> <FontAwesomeIcon className='icon' icon={faSquarePlus} /> </span>
+                        <span>      <Link to='/' className='textt mt-2'>Advertisement</Link> <br /></span>
+                    </p>
+
                 </div>
 
                 <div className='text-white'>
                     <h6 className='rttt mb-2'>CONTACT INFO</h6>
-                    <span className='mb-2'> <FontAwesomeIcon className='icons' icon={faPhone} /> </span>
-                    <span> <Link to='/' className='textt'> 880 1305-272861</Link> <br /></span>
-                    <span className=''> <FontAwesomeIcon className='iconss' icon={faFileText} /> </span>
-                    <span> <Link to='/' className='textt'>info@automotors.com</Link> <br /></span>
-                    <span className=''> <FontAwesomeIcon className='iconsss' icon={faLocation} /> </span>
-                    <span>  <Link to='/' className='textt'>Solaiman Tower,
-                        69, Nikunja,C/A,
-                        Dhaka-1229 Bangladesh</Link> <br /></span>
+
+                    <p>
+                        <span className='mb-2'> <FontAwesomeIcon className='icons' icon={faPhone} /> </span>
+                        <span> <Link to='/' className='textt'> 880 1305-272861</Link> <br /></span>
+                    </p>
+
+                    <p>
+                        <span className=''> <FontAwesomeIcon className='iconss' icon={faFileText} /> </span>
+                        <span> <Link to='/' className='textt'>info@automotors.com</Link> <br /></span>
+                    </p>
+
+                    <p>
+                        <span className=''> <FontAwesomeIcon className='iconsss' icon={faLocation} /> </span>
+                        <span>  <Link to='/' className='textt'>Solaiman Tower,
+                            69, Nikunja,C/A,
+                            Dhaka-1229 Bangladesh</Link> <br /></span>
+
+                    </p>
+
+
                 </div>
                 <div> <h6 className='rtt mb-3'>FOLLOW US</h6>
                     <div className="socialside gap-4">
