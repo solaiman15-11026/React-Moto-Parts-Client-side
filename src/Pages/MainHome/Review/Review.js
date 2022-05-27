@@ -6,7 +6,7 @@ import './Review.css'
 const Review = () => {
     return (
         < div className='my-5  pb-4 bg-color ' >
-            <h1 className='mt-4 text-primary pt-5 mb-2 text-center text-uppercase '>
+            <h1 className='mt-4 fs-2 text-primary pt-5 mb-2 text-center text-uppercase '>
 
                 <span className='border border-info px-2 mx-2'>R</span>
                 <span className='border border-info px-2 mx-2'>E</span>
@@ -16,7 +16,7 @@ const Review = () => {
                 <span className='border border-info px-2 mx-2'>W</span>
                 <span className='border border-info px-2 mx-2'>S</span>
             </h1>
-            <hr style={{ width: '35%', margin: '0  auto' }} className='mb-4 ' />
+            <hr style={{ width: '30%', margin: '0  auto' }} className='mb-4 ' />
             <div className="card-group container-reviw text-center">
                 <div className="card m-3 border-0 shadow rounded">
                     <img className="card-img-top mx-auto w-100 " src="https://i.ibb.co/W28mHy2/istockphoto-1296158947-612x612.jpg" alt="" />

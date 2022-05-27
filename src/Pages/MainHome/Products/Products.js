@@ -15,7 +15,7 @@ const Products = () => {
     return (
 
         <div id='products' className='view' >
-            <h1 className='mt-4 text-dark pt-5 mb-3 text-center text-uppercase heabt'>
+            <h1 className='heabt mt-4  text-dark pt-5 mb-3 text-center text-uppercase '>
 
                 <span className='border border-warning px-2 mx-2 hea'>O</span>
                 <span className='border border-warning px-2 mx-2 hea'>U</span>
@@ -28,9 +28,10 @@ const Products = () => {
                 <span className='border border-info px-2 mx-2'>U</span>
                 <span className='border border-info px-2 mx-2'>C</span>
                 <span className='border border-info px-2 mx-2'>T</span>
-                <span className='border border-info px-2 mx-2'>S</span>
+                <span className='border hide border-info px-2 mx-2'>S</span>
+
             </h1>
-            <hr style={{ width: '47%', margin: '0  auto' }} className='mb-4 ' />
+            <hr style={{ width: '44%', margin: '0  auto' }} className='mb-4 ' />
             <div className='grid'>
                 {
                     products.map(part => <Part

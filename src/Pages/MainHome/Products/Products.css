@@ -10,6 +10,13 @@
 
 }
 
+.heabt {
+    font-size: 29px;
+    font-style: normal;
+
+
+}
+
 @media screen and (max-width: 600px) {
     .grid {
         display: grid;
@@ -18,7 +25,7 @@
     }
 
     .heabt {
-        font-size: 16px;
+        font-size: 14px;
         font-style: normal;
 
     }
@@ -26,5 +33,6 @@
     .hea {
         display: none;
     }
+
 
 }

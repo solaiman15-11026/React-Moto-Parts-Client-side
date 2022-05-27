@@ -9,8 +9,8 @@ const Service = () => {
     return (
         <div>
 
-            <h1 className='headB mb-2 '>OUR WORLDWIDE BUSINESS</h1>
-            <hr style={{ width: '40%', margin: '0  auto' }} className='mb-3 ' />
+            <h1 className='headB fs-2 mb-2 '>OUR WORLDWIDE BUSINESS</h1>
+            <hr style={{ width: '30%', margin: '0  auto' }} className='mb-3 ' />
 
             <Row className='mx-4  d-flex justify-content-center'>
 
