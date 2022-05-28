@@ -1,10 +1,10 @@
 import React from 'react';
-import './Loading.css'
+import { Spinner } from 'react-bootstrap';
 
 const Loading = () => {
     return (
-        <div className='mx-auto flex items-center justify-center w-full my-24'>
-            <button class="btn loading">loading</button>
+        <div>
+            <Spinner animation="border" variant="success" />
         </div>
     );
 };

@@ -23,7 +23,7 @@ const Navbar = () => {
         {
             user && <li><Link to='/dashboard'>Dashboard</Link></li>
         }
-        <li>{user ? <button onClick={logout} class="btnbtn-ghost text-lg">Sign Out </button> : <Link to='/login'>Login</Link>}</li>
+        <li>{user ? <button className='btn' onClick={logout} class="btnbtn-ghost text-lg">Sign Out </button> : <Link to='/login'>Login</Link>}</li>
     </>
     return (
         <div className="navbar  rox  px-8">
@@ -41,7 +41,7 @@ const Navbar = () => {
                 </div>
                
             </div>
-            <div className="navbar-end w-full   hidden lg:flex ">
+            <div className="navbar-end    hidden lg:flex ">
                 <ul className="menu menu-horizontal text-lg p-0">
                     {navItem}
 

@@ -1,0 +1,70 @@
+.port {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+
+}
+
+.rty {
+    margin: 90px 5px;
+}
+
+.skill {
+
+    padding: 30px;
+    font-size:30px;
+    
+}
+
+.cover-body {
+    background-color: black;
+}
+
+.review {
+    color: rgb(204, 199, 190);
+}
+
+.Port-size {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 27px;
+}
+
+.server-img {
+    height: 180px;
+    transition: all 500ms ease-in-out;
+}
+
+.server-img:hover {
+    transform: scale(0.9);
+    overflow: hidden;
+}
+
+
+
+
+
+
+/*--------- media qurey here  ------*/
+@media screen and (max-width: 600px) {
+    .port {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+    }
+
+    .rty {
+        margin: 35px 5px;
+    }
+
+    .font-skill {
+        font-size: 12px;
+    }
+
+    .Port-size {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+
+
+}
