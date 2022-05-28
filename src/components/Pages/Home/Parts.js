@@ -11,7 +11,21 @@ const Parts = () => {
     }, [])
     return (
         <div className='px-8 mt-24'>
-            <h2 className='text-5xl font-bold text-center mb-12 uppercase'>Our Available <span className='text-blue-900'>Parts</span></h2>
+        <h1 className='heabt mt-4  text-dark pt-5 mb-3 text-center text-uppercase '>
+
+      
+
+        <span className='border border-info px-2 mx-2'>P</span>
+        <span className='border border-info px-2 mx-2'>R</span>
+        <span className='border border-info px-2 mx-2'>O</span>
+        <span className='border border-info px-2 mx-2'>D</span>
+        <span className='border border-info px-2 mx-2'>U</span>
+        <span className='border border-info px-2 mx-2'>C</span>
+        <span className='border border-info px-2 mx-2'>T</span>
+        <span className='border hide border-info px-2 mx-2'>S</span>
+
+    </h1>
+    <hr style={{ width: '44%', margin: '0  auto' }} className='mb-4 ' />
 
             <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-5'>
                 {

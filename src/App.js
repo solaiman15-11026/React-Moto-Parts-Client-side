@@ -18,7 +18,7 @@ import PartsDetails from './components/Pages/PartsDetails/PartsDetails';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Users from './components/Pages/Dashboard/Users';
-import Reviews from './components/Pages/Home/Reviews';
+import Review from './components/Pages/Home/Review/Review';
 import RequireAdmin from './components/Pages/Login/RequireAdmin';
 import ManageProduct from './components/Pages/Dashboard/ManageProduct';
 import ManageOrder from './components/Pages/Dashboard/ManageOrder';
@@ -34,7 +34,7 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/myprotfolio' element={<MyProtfolio></MyProtfolio>}></Route>
-        <Route path='/review' element={<Reviews></Reviews>}></Route>
+        <Route path='/review' element={<Review></Review>}></Route>
 
         <Route path='/part/:id' element={<RequireAuth><PartsDetails></PartsDetails></RequireAuth>}></Route>
         <Route path="dashboard" element={<RequireAuth><Dashboard /></RequireAuth>} >

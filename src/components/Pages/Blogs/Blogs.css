@@ -1,0 +1,63 @@
+.Blogss {
+    color: rgba(68, 68, 233, 0.904);
+    text-align: center;
+
+}
+
+.data {
+    padding: 7px;
+    border-left: 3px solid rgb(233, 110, 110);
+    border-radius: 1px;
+    text-align: justify;
+    color: rgb(90, 92, 99);
+}
+
+.datap {
+    padding: 7px;
+    border-left: 3px solid rgb(231, 233, 110);
+    border-radius: 1px;
+    text-align: justify;
+    color: rgb(90, 92, 99);
+}
+.lala{
+    margin: 0px 60px;
+}
+.dtap {
+    padding: 7px;
+    border-left: 3px solid rgb(110, 233, 120);
+    border-radius: 1px;
+    text-align: justify;
+    color: rgb(90, 92, 99);
+}
+
+.datp {
+    padding: 7px;
+    border-left: 3px solid rgb(223, 118, 205);
+    border-radius: 1px;
+    text-align: justify;
+    color: rgb(90, 92, 99);
+}
+
+.datapp {
+    padding: 7px;
+    border-left: 3px solid rgb(160, 230, 32);
+    border-radius: 1px;
+    text-align: justify;
+    color: rgb(90, 92, 99);
+}
+
+
+
+.blogs-Container {
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .lala{
+        margin: 0px 30px;
+    }
+
+
+
+}

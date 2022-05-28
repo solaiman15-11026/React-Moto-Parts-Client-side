@@ -1,20 +1,47 @@
 import React from 'react';
-import banner from '../../../assets/banner.png'
+import { Carousel } from 'react-bootstrap';
+import banner1 from '../../../Image/banner/banner-1.jpg'
+import banner2 from '../../../Image/banner/banner2.jpg'
+import banner3 from '../../../Image/banner/banner3.jpg'
 
 const Banner = () => {
     return (
-        <div class="hero min-h-screen bg-base-100">
-            <div class="hero-content flex-col lg:flex-row-reverse">
-                <img src={banner} class="max-w-sm rounded-lg shadow-2xl" />
-                <div>
-                    <h1 class="text-5xl font-bold uppercase">Manufactured Computer <span className='text-blue-900'>Parts!</span></h1>
-                    <p class="py-6 text-lg">All of the computer parts are available here. We manufacturing all kind of computer elemenets like
-                        motherboard, cpu, ram, storage, keyboard, mouse etc. To get all of computer parts
-                        stay connect with us.
-                    </p>
-                    <button class="btn bg-blue-900">Get Started</button>
-                </div>
-            </div>
+        <div>
+            <Carousel>
+                <Carousel.Item interval={1000}>
+                    <img
+                        className="d-block w-100"
+                        src={banner1}
+                        alt="First slide"
+                    />
+                    <Carousel.Caption>
+                        <h1 className='fs-3'> Bike Selinger </h1>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item interval={500}>
+                    <img
+                        className="d-block w-100"
+                        src={banner2}
+                        alt="Second slide"
+                    />
+                    <Carousel.Caption>
+                        <h1 className='fs-3'>Bike Handle</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={banner3}
+                        alt="Third slide"
+                    />
+                    <Carousel.Caption>
+                        <h1 className='fs-3'>Bike Engine</h1>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
         </div>
     );
 };
