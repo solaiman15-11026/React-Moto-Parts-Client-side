@@ -15,7 +15,7 @@ const PartsDetails = () => {
     const { _id, name, description, img, minimum, quantity, price } = part;
 
     useEffect(() => {
-        const url = `http://localhost:5000/part/${id}`
+        const url = `https://mysterious-oasis-33878.herokuapp.com/part/${id}`
 
         fetch(url)
             .then(res => res.json())
@@ -35,7 +35,7 @@ const PartsDetails = () => {
             placeOrderPrice: e.target.quantity.value * price,
 
         }
-        fetch('http://localhost:5000/placeOrder', {
+        fetch('https://mysterious-oasis-33878.herokuapp.com/placeOrder', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

@@ -10,7 +10,7 @@ const ManageProduct = () => {
         isLoading,
         refetch,
     } = useQuery("parts", () =>
-        fetch('http://localhost:5000/part').then((res) => res.json())
+        fetch('https://mysterious-oasis-33878.herokuapp.com/part').then((res) => res.json())
     );
 
     if (isLoading) {

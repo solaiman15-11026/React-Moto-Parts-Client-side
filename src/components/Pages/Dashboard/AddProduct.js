@@ -13,7 +13,7 @@ const AddProduct = () => {
             quantity: e.target.quantity.value
         }
         console.log(product);
-        fetch('http://localhost:5000/part', {
+        fetch('https://mysterious-oasis-33878.herokuapp.com/part', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(product)
