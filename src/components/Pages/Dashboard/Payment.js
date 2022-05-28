@@ -10,7 +10,7 @@ import auth from "../../../firebase.init";
 
 
 const stripePromise = loadStripe(
-    "pk_test_51L2CrGG9oj2pDETbtrBQIEhVG4PSy9NHzqFCso9sJwDG3zSVPaVuOljBT2B80z21VAHRf26XqMtFXMIlsMWv8p4j00mJ6tNzAa"
+    "pk_test_51L4NX7IpR4eYUvvZRB9OEQFJUVF3zBe22YCKLqOSX14RU2t3hl1CmRMyKtB9wt6ZRcIt8OputCJZbNl4SyemKQV500IWFYaFHy"
 );
 
 const Payment = () => {
